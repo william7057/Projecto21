@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <h2>Formulario Registro</h2>
+        <form action="/Web/GuardarDatos" method="post">
+            <label>Nombre :</label>
+            <input type="text" name="Data.Nombre" value="" /><br />
+            <label>Comentario :</label><br />
+            <textarea cols="50" rows="10" name="Data.Comentario">
+             </textarea><br />
+            <button>Enviar</button>
+        </form>
+    </div>
+    <a href="/Index/Index">Regresar Al inicio</a>
+</body>
+</html>
